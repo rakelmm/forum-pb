@@ -1,0 +1,11 @@
+.posts-list {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+}
+
+@media (min-width: 600px) {
+    .posts-list {
+        padding: 0 20px;
+    }
+}

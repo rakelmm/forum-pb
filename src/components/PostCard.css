@@ -1,0 +1,31 @@
+.post-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px 0;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post-card h2 {
+    margin: 0 0 8px 0;
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  .post-card p {
+    margin: 4px 0;
+    color: #666;
+  }
+  
+  @media (min-width: 600px) {
+    .post-card {
+        padding: 24px;
+        margin: 24px 0;
+    }
+  
+    .post-card h2 {
+        font-size: 1.5em;
+    }
+  }
+  

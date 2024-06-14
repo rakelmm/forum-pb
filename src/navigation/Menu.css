@@ -1,0 +1,41 @@
+.menu {
+    background-color: #FFB6C1;
+    overflow: hidden;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+  }
+  
+  .menu li {
+    display: inline;
+  }
+  
+  .menu a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .menu a:hover {
+    background-color: #DB7093;
+  }
+  
+  @media (max-width: 600px) {
+    /* .menu ul {
+        flex-direction: column;
+    } */
+  
+    .menu a {
+        /* text-align: left; */
+        padding: 10px;
+    }
+  }
+  

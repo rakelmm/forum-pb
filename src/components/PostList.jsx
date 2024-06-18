@@ -18,3 +18,4 @@ const PostsList = ({ posts, currentUser }) => {
 };
 
 export default PostsList;
+

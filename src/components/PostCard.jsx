@@ -4,7 +4,7 @@ import './PostCard.css';
 const PostCard = ({ post, isOwner }) => {
     return (
         <div className="post-card">
-            <h2>{post.title}</h2>
+            <h2 className='titulo'>{post.title}</h2>
             <p>{post.selftext ? post.selftext.substring(0, 100) : 'No description'}...</p>
             <p>By {post.author}</p>
             <p>Published on {new Date(post.created_utc * 1000).toLocaleDateString()}</p>

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 
-const PostDetail = ({ postId }) => { // Certifique-se de receber postId como prop
+const PostDetail = ({ postId }) => { 
     const [post, setPost] = useState(null);
 
     useEffect(() => {
